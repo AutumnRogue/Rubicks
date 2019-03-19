@@ -1,6 +1,6 @@
 // Rubix's cube automated
 // If unfamiliar, I will show you the face, the edge piece and the corner piece
-// I will also explain how to move the cube(R,R-,L,L-,F,F-,T,T-,B,B-,M,M-)
+// I will also explain how to move the cube(R,R-,L,L-,F,F-,T,T-,B,B-,M,M-,U,U-)
 // Before you start, achieve the white cross ( I will help)
 
 //fill in the variables as required
@@ -21,7 +21,7 @@ var ready = ''
 
 // You should now have a flat white side with 4 colourful 'T' shapes on each side, congratulations! Now onto step two.
 
-//Step two. Face the white side away from you so that the yellow side is facing you and look for an edge piece that doesn't have any yellow. Have that piece point north and align it with its matching face, once this is done mark the colour of the top and front piece.
+//Step two. Face the white side away from you so that the yellow side is facing you and look for an edge piece that doesn't have any yellow. Have that piece point north and align it with its matching face, once this is done mark the colour of the top and front piece. Repeat until the middle row is complete.
 
 //If a piece is stuck, use the north face's colour for the top variable and the remaining colour as the front variable, do the command, adjust so the edge is in the correct position, and then do the same command again.
 
